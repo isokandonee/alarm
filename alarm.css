@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    font-family: lcd;
+    border-radius: 25px;
+    padding-left: 390px;
+}
+.wide{
+    width: 50%;
+    margin: 10%;
+    background-color: #004d1a;
+    border-radius: 10px;
+
+}
+
+.wide input{
+    outline: 0;
+    border: 10;
+    background-color: #b3ffb3;
+    width: 150px;
+    height: 120px;
+    font-family: lcd;
+    font-size: 120px;
+    border-radius: 10px;
+    margin: 1%;
+}
+.wide button{
+    outline: 0;
+    border: 10;
+    background-color: #1aff66;
+    width: 150px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 1%;
+}
+.time{
+    width: 595px;
+    height: 50px;
+    background-color: #80ffaa;
+    outline: 0;
+    border: 5;
+    font-size: 50px;
+    font-family: segoe print;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    /*margin: 1%;*/
+}

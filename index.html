@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alarm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="alarm.css" />
+    <script src="main.js"></script>
+</head>
+<body onload="time()">
+    
+    <div class="wide" align="center">
+            <div class="time">ALARM CLOCK</div>
+            <input type="text" id="h" disabled>&nbsp;                     
+            <input placeholder="00" type="text" id="m" disabled>&nbsp;
+            <input placeholder="00" type="text" id="s" disabled><br>
+            <div id="div">
+            <input placeholder="00" type="number" min="0" max="24" id="hi" maxlength="3">&nbsp;                     
+            <input placeholder="00" type="number" min="0" max="60" id="mi" maxlength="2">&nbsp;
+            <input placeholder="00" type="number" min="0" max="60" id="si" maxlength="2"><br>
+            </div>
+            <button onclick="document.getElementById('div').style.display='none'">Set Alarm</button>
+            <button onclick="snooze()">Stop</button>
+            <button onclick="refresh()">Refresh</button></div>
+            <!-- <button onclick="time()">Clock</button> -->
+
+
+
+<script type="text/javascript" src="alarm.js"></script>
+    
+</body>
+</html>
